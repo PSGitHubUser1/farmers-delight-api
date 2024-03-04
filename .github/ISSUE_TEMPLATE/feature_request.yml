@@ -1,20 +1,21 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+name: Feature Request
+description: Create a report to help us improve.
+labels: featreq
+body:
+ - type: checkboxes
+   attributes:
+    label: Issue tracker rule checks (please read carefully)
+    options:
+     - label: "I have checked that this feature <a href='https://github.com/PSGitHubUser1/farmers-delight-api/issues' target='_blank'>is not already asked.</a>"
+       required: true
+     - label: "I have checked that this feature is not already implemented."
+       required: true
+ - type: textarea
+   attributes:
+    label: Feature description
+    description: Explain clearly
+    placeholder: |
+     Tell us here about the feature
+   validations:
+    required: true
 
----
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
