@@ -1,0 +1,11 @@
+{
+  "id": "farmers_delight_api",
+  "weight": 1606,
+  "minversion": 202300451120,
+  "info": {
+    "name": "Farmer's Delight API",
+    "version": "1.0",
+    "description": "Adds Farmer's Delight mod to your workspace.",
+    "author": "Infoy"
+  }
+}

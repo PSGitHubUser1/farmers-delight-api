@@ -1,0 +1,18 @@
+---
+fabric-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url "https://cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    
+    dependencies {
+        modImplementation "curse.maven:farmers-delight-fabric-482834:4939709"
+    }
+  update_files:
+    - ~
+name: "Farmer's Delight (Fabric)"

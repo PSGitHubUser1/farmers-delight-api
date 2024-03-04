@@ -1,0 +1,18 @@
+---
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url "https://cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    
+    dependencies {
+       implementation fg.deobf("curse.maven:farmers-delight-398521:5051242")
+    }
+  update_files:
+    - ~
+name: "Farmer's Delight (Forge - 1.20.1)"
